@@ -9,8 +9,8 @@
 ## Usage
 
 ```
-ruby nokogiri.rb > site-list.txt
-phantomjs screenshot.js
+chmod u+x run.sh
+./run.sh
 ```
 
 # Todo

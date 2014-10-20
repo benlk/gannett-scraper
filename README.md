@@ -1,5 +1,7 @@
 # Gannett site comparisons
 
+I wondered what the 'average' Gannett-owned website looked like, so I wrote this tool to screenshot them all. You can read more about this project and see the results [here](http://localhost/dropplets-benlk/2014-10-19-what-the-average-gannett-site-looks-like). This tool isn't terribly Gannett-specific, and can be reused for serial screenshotting of other things.
+
 ![Screenshot example, using US websites](https://farm6.staticflickr.com/5613/15554519706_fbcdc6ee9a_n.jpg)
 
 ## Setup
@@ -34,6 +36,10 @@ The resulting image will be mostly-transparent and very washed-out, so you'll wa
 1. Flatten the imate to remove transparency
 2. Auto Equalize the image to bring up the contrast
 3. (optional) Adjust the saturation of colors
+
+## Reusing
+
+`nokogiri.rb` is set up for Gannett sites, but it's really not that hard to edit for grabbing a list of URLs out of any other page. Just make sure to change the CSS selectors to point to your specific URLs. The output is [not deduplicated or sorted](http://benlk.com/static/uploads/site-list.txt).
 
 ## License
 

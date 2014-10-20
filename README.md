@@ -1,5 +1,7 @@
 # Gannett site comparisons
 
+![Screenshot example, using US websites](https://farm6.staticflickr.com/5613/15554519706_fbcdc6ee9a_n.jpg)
+
 ## Setup
 
 1. [Install Nokogiri](http://www.nokogiri.org/tutorials/installing_nokogiri.html)

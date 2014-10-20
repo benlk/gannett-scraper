@@ -25,7 +25,7 @@ To find the average:
 convert -background transparent -gravity North -resize "1600x6000>" -extent 1600x6000 img/*.png -evaluate-sequence mean average-gannett-site.png
 ```
 
-This averages the sites using ImageMagick. A more detailed eplanation of what's going on can be found [here](http://blog.patdavid.net/2012/08/imagemagick-average-blending-files.html). 
+This averages the screenshots using ImageMagick. A more detailed eplanation of what's going on can be found [here](http://blog.patdavid.net/2012/08/imagemagick-average-blending-files.html). 
 
 The resulting image will be mostly-transparent and very washed-out, so you'll want to open it up in an image editor such as The Gimp or Photoshop and perform the following:
 

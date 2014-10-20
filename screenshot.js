@@ -32,7 +32,7 @@ function rendermax(site) {
 }
 
 if (args.length === 1) {
-  console.log('Try to pass some arguments when invoking this script!');
+  console.log('You need to pass a URL as an argument for this script.');
 } else {
   var site = args[1];
   rendermax(site);

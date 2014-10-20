@@ -1,7 +1,8 @@
 #!/bin/sh
 
-if [ -f site-list.txt ]
+if [ -f site-list.txt ] && [ `stat --format=%Y nokogiri.rb` -le `stat --format=%Y site-list.txt` ]
 then
+	echo "continuing"
     continue
 else
     ruby nokogiri.rb > site-list.txt
